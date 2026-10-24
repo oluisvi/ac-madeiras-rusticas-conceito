@@ -26,4 +26,5 @@
   .site-nav nav{display:none}
   .hero-side-note{display:none}
   .design-button span{display:none}
+  .site-workshop .section-heading h2{font-size:clamp(38px,10.2vw,46px);letter-spacing:-.09em}
 }
