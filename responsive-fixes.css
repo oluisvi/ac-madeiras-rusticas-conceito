@@ -27,6 +27,8 @@
   .hero-side-note{display:none}
   .design-button span{display:none}
   .site-workshop .section-heading h2{font-size:clamp(38px,10.2vw,46px);letter-spacing:-.09em}
-  .piece-card .text-action{max-width:100%;text-align:left}
-  .piece-card .text-action .action-label{min-width:0;white-space:normal;overflow-wrap:anywhere}
+  .site-workshop .workshop-title h1{font-size:clamp(54px,16vw,76px)}
+  .piece-card .text-action{display:flex;width:100%;max-width:100%;justify-content:space-between;gap:8px;text-align:left}
+  .piece-card .text-action .action-label{display:block;flex:1 1 0;min-width:0;white-space:normal;overflow-wrap:anywhere}
+  .piece-card .text-action>span:last-child{flex:0 0 auto}
 }
