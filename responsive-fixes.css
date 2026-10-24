@@ -27,4 +27,6 @@
   .hero-side-note{display:none}
   .design-button span{display:none}
   .site-workshop .section-heading h2{font-size:clamp(38px,10.2vw,46px);letter-spacing:-.09em}
+  .piece-card .text-action{max-width:100%;text-align:left}
+  .piece-card .text-action .action-label{min-width:0;white-space:normal;overflow-wrap:anywhere}
 }

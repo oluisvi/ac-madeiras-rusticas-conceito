@@ -13,7 +13,7 @@ const projects = [
 const note = `<p class="image-note"><span aria-hidden="true">✳</span> Imagens ilustrativas criadas para este conceito. Não representam peças disponíveis nem o acervo real da AC.</p>`;
 const cardMarkup = (p, index, layout = "") => `<article class="piece-card ${layout}" data-category="${p.category}" style="--i:${index}">
   <button class="piece-image" type="button" data-open-piece="${p.id}" aria-label="Ver detalhes de ${p.name}"><img src="${p.image}" alt="${p.imageAlt}" width="1400" height="1000" loading="lazy"><span class="piece-tag">${p.tag}</span><span class="image-arrow" aria-hidden="true">↗</span></button>
-  <div class="piece-copy"><p class="piece-kind">${p.kind}</p><h3>${p.name}</h3><p>${p.description}</p><button class="text-action" type="button" data-contact-piece="${p.id}">Perguntar sobre uma peça assim <span aria-hidden="true">↗</span></button></div>
+  <div class="piece-copy"><p class="piece-kind">${p.kind}</p><h3>${p.name}</h3><p>${p.description}</p><button class="text-action" type="button" data-contact-piece="${p.id}"><span class="action-label">Perguntar sobre uma peça assim</span><span aria-hidden="true">↗</span></button></div>
 </article>`;
 
 const commonPortfolio = `<section class="portfolio-section" id="referencias">
